@@ -2,7 +2,7 @@
 FROM alpine:3.18.4
 
 # Install MPD (Music Player Daemon)
-RUN apk add --no-cache mpd
+RUN apk add --no-cache mpd mpc
 
 # Expose the default port for MPD
 EXPOSE 6600
