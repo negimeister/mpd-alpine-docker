@@ -1,5 +1,5 @@
 # Use Alpine Linux 3.18.4 as the base image
-FROM alpine:3.19.1
+FROM alpine:3.20.0
 
 # Install MPD (Music Player Daemon)
 RUN apk add --no-cache mpd mpc
